@@ -32,3 +32,5 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst case that this algorithm could run into is when it has to vist all vetices and edges. That means for the loop that iterates over the nodes neighboring the current node it goes through every node in the graph. That means the implmentation of this algorithm has a time complexity of $\Theta(|V|+|E|)$.
